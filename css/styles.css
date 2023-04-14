@@ -136,7 +136,7 @@ body {
 .hero-knock {
     color: var(--white-background);
     background-color: var(--iris-primary-brand);
-    font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
@@ -151,35 +151,82 @@ body {
 
 .feature {}
 
-.feature-div {}
+.feature-head {
+    font-weight: 500; 
+    font-size: 20px;
+    line-height: 1.2;
+}
 
-.demonstration {}
+.feature-text {
+    color: var(--slate-text);
+}
 
-.Team {}
+.demonstration {
+    font-size: 36px;
+    line-height: 1.1;
+}
 
-.Team-list {}
+.Team {
+    background-color: var(--cloud-light);
+}
 
-.Team-employee {}
+.Team-hed {
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.Team-employee {
+    width: 264px;
+    height: 380px;
+    background-color: var(--white-background);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .footer {
-
+    background-color: var(--navy-blue-dark);
 }
 
 .logo-foot {
     color: var(--cloud-light);
 }
 
-.footer-text {}
+.footer-text {
+    color: var(--cloud-light);
+}
 
 
 /* portfolio */
 
 .portfolio-filter {}
 
-.portfolio-knock {}
+.portfolio-knock {
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris-primary-brand);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 
-.projects {}
+}
 
-.projects-item {}
+.portfolio-knock:hover,
+.portfolio-knock:focus {
+    color: var(--white-background);
+    background: var(--ocean-pressed-state);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: var(--ocean-pressed-state);
+}
 
-.hover {}
+.projects-item {
+    
+}
+
+.projects-hed {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.projects-text {
+    color: var(--slate-text);
+}
