@@ -219,7 +219,9 @@ body {
 }
 
 .projects-item {
-    
+    width: 360px;
+    height: 420px;
+    border: 1px solid #E7E9FC;
 }
 
 .projects-hed {
