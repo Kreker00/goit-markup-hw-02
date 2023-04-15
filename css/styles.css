@@ -45,8 +45,6 @@ button {
     --grey-hero-background: rgba(46, 47, 66, 0.7);
     --white-background: #FFFFFF;
     --dairy-modal-background: #FCFCFC;
-    --text-h2: 
-
 }
 
 .shadow {
@@ -98,8 +96,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    line-height: 0.02em;
-    color: var(--navy-blue-dark);
+    letter-spacing: 0.02em;
+    color: var(--slate-text);
 }
 
 .main-nav:hover,
@@ -111,7 +109,9 @@ body {
     font-style: normal;
 }
 
-.contact-paragraph paragraph{
+/* .projects-text (p из portfolio) */
+.contact-paragraph,
+.projects-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -160,8 +160,10 @@ body {
 .feature {}
 
 /* .team-employee-head - (h3 из сектора 4) */
+/* .projects-hed - (h2 из portfolio) */
 .feature-head,
-.team-employee-head {
+.team-employee-head,
+.projects-hed {
     font-weight: 500; 
     font-size: 20px;
     line-height: 1.2;
@@ -243,19 +245,4 @@ body {
     width: 360px;
     height: 420px;
     border: 1px solid #E7E9FC;
-}
-
-.projects-hed {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue-dark);
-}
-
-.projects-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-text);
 }
