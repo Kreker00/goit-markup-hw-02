@@ -109,13 +109,11 @@ body {
     font-style: normal;
 }
 
-/* .projects-text (p из portfolio) */
-.contact-paragraph,
-.projects-text {
+.contact-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate-text);
+    color: var(--navy-blue-dark);
 }
 .contact-paragraph:hover,
 .contact-paragraph:focus {
@@ -232,6 +230,13 @@ body {
     text-align: center;
     border: 1px solid var(--cornflower-accent);
     border-radius: 4px;
+}
+
+.projects-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-text);
 }
 
 .portfolio-knock:hover,
