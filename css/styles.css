@@ -83,11 +83,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris-primary-brand);
+    color: var(--navy-blue-dark);
 }
 
 .logo-hed {
-    color: var(--navy-blue-dark);
+    color: var(--ocean-pressed-state);
 }
 
 .nav {}
@@ -113,7 +113,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue-dark);
+    color: var(--slate-text);
 }
 .contact-paragraph:hover,
 .contact-paragraph:focus {
